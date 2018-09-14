@@ -149,3 +149,13 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# Sourcetree shortcut
+alias stree='/Applications/Sourcetree.app/Contents/Resources/stree'
+alias s='/Applications/Sourcetree.app/Contents/Resources/stree'
+alias s.='stree .'
+
+
+# Sublime shortcuts
+alias e='subl'
+alias e.='subl .'
