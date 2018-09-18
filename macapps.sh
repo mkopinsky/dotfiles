@@ -6,7 +6,8 @@ echo "If this is the first install of Divvy, you must enable it in System Prefer
 # This doesn't work unfortunately. Oh well.
 # sudo sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "INSERT INTO access VALUES('kTCCServiceAccessibility','com.mizage.Divvy',0,1,1,NULL);"
 
-# TODO: track divvy settings in dotfiles
+# copy divvy settings
+cp init/com.mizage.Divvy.plist ~/Library/Preferences/
 
 
 # Slack
